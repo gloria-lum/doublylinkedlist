@@ -94,7 +94,7 @@ void insert_after_item(struct list_node *item, char *newvalue, char *oldvalue)
 
 void insert_before_item(struct string_item *item, char *newvalue, char *oldvalue)
 {
-    struct string_item *temphead = item; // testa
+    struct string_item *temphead = item; 
     struct string_item *newitem = string_item_new(newvalue);
     struct string_item *item_prev;
 
